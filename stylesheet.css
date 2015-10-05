@@ -1,0 +1,65 @@
+/*Copyright © 2015 Boris Avrumov*/
+html {
+	background: url(bgnd.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+}
+
+.question {
+	border:solid 1px;
+	width:50%;
+	padding:10px;
+	border-radius:10px;
+	font:14pt Arial;
+	background-color: white;
+	opacity: 0.75;
+	line-height: 125%;
+}
+
+#R, #M {
+	display:none;
+	padding-bottom:20px;
+	padding-top:20px;
+}
+
+#R button, #M button {
+	float:right;
+	width: 25%;
+	padding:3px;
+}
+
+#header td {
+	border:2px outset red;
+	background-color:black;
+	color:gold;
+}
+
+button {
+	width:69%;
+	font-size:16pt;
+	border:ridge 3px;
+	border-radius: 18px;
+	background-color:palegreen;
+	padding: 10px;
+}
+
+#result {
+	font-size:18pt;
+	font-family:Helvetica;
+	color:seashell;
+}
+
+#col {
+	text-align:center;
+}
+
+p {
+	display:inline-block;
+	width: 47%;
+	text-align:center;
+}
+
+table.question {
+	opacity:0.95;
+}
